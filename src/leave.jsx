@@ -335,7 +335,7 @@ function LeaveListView({ leaves, today, listRange, stats, onEditLeave, onWithdra
                   {td(
                     l.status === 'confirmed'
                       ? <span style={{ display:'inline-flex', alignItems:'center', gap:4, fontSize:11.5, fontWeight:700, color:'#065F46', background:'#D1FAE5', padding:'2px 8px', borderRadius:4 }}><Icon.Check />확인</span>
-                      : <span style={{ fontSize:11.5, fontWeight:600, color:'var(--ink-400)', background:'#F3F3F3', padding:'2px 8px', borderRadius:4 }}>대기중</span>
+                      : <span style={{ fontSize:11.5, fontWeight:600, color:'var(--ink-400)', background:'#F3F3F3', padding:'2px 8px', borderRadius:4 }}>미확인</span>
                   )}
                   <td style={{ padding:'10px 8px', borderBottom:'1px solid var(--border)', textAlign:'center', verticalAlign:'middle', position:'relative' }}>
                     {isUpcoming && (
